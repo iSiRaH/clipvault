@@ -2,5 +2,11 @@
   "name": "clipvault",
   "private": true,
   "version": "0.1.0",
-  "packageManager": "pnpm@10"
+  "scripts": {
+    "dev": "pnpm --filter desktop dev",
+    "build": "pnpm --filter desktop build",
+    "tauri": "pnpm --filter desktop tauri",
+    "tauri:dev": "pnpm --filter desktop tauri dev",
+    "tauri:build": "pnpm --filter desktop tauri build"
+  }
 }
